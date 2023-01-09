@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:textSize="100sp"
+        android:text="@string/_25_00"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/circle"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/butcir"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_margin="10sp"/>
+
+</LinearLayout>
